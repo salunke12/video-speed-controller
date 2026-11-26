@@ -15,7 +15,7 @@ A lightweight Chrome extension (Manifest V3) for controlling HTML5 video playbac
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/<your-username>/video-speed-controller.git
+   git clone https://github.com/<salunke12>/video-speed-controller.git
    ```
 2. Open `chrome://extensions` in Chrome.
 3. Enable **Developer mode** (top right).
