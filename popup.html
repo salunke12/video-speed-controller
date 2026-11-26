@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Video Speed Controller</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="fine">
+    <button id="dec" title="Decrease by 0.05x">&lt;</button>
+    <div id="current">1.00x</div>
+    <button id="inc" title="Increase by 0.05x">&gt;</button>
+  </div>
+
+  <div class="presets" id="presets"></div>
+
+  <p id="status" class="status"></p>
+  <p class="hint">Tip: press <kbd>&lt;</kbd> / <kbd>&gt;</kbd> while watching to change speed by 0.05x.</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
